@@ -1,0 +1,40 @@
+{
+  "author": "Ray Patterson",
+  "name": "build-system",
+  "version": "0.0.0",
+  "homepage": "http://raypatterson.github.io/build-system",
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/raypatterson/build-system/master/LICENSE"
+  },
+  "bugs": "https://github.com/raypatterson/build-system/issues",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:raypatterson/build-system.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.3.4",
+    "gulp-util": "~2.2.10",
+    "gulp-livereload": "~0.2.0",
+    "gulp-if": "0.0.3",
+    "gulp-open": "~0.2.7",
+    "gulp-size": "~0.1.1",
+    "gulp-minify-html": "~0.1.0",
+    "gulp-myth": "~0.1.0",
+    "gulp-csso": "~0.1.7",
+    "gulp-jshint": "~1.3.4",
+    "gulp-uglify": "~0.1.0",
+    "gulp-sass": "~0.4.0",
+    "gulp-autoprefixer": "0.0.4",
+    "rework": "~0.20.2",
+    "connect": "~2.12.0",
+    "connect-livereload": "~0.3.2",
+    "tiny-lr": "0.0.5",
+    "vinyl-map": "0.0.1",
+    "gulp-compass": "~1.0.6",
+    "gulp-bytediff": "~0.1.7",
+    "gulp-rev": "~0.2.0",
+    "gulp-gzip": "0.0.4"
+  }
+}

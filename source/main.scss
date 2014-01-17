@@ -1,0 +1,24 @@
+@import 'import-file';
+
+body {
+  transition: transform 1s;
+}
+
+:root {
+  var-color-green: #a6c776;
+}
+
+a {
+  color: var(color-green);
+  font-variant: all-small-caps;
+  transition: color 1s;
+}
+
+::placeholder {
+  opacity: .4;
+  transition: opacity 1s;
+}
+
+:focus::placeholder {
+  opacity: .2;
+}
